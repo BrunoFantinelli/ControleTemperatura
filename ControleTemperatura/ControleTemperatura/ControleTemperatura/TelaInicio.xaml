@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ControleTemperatura.ControleTemperatura.TelaInicio"
+            xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Temperatura">
+        <StackLayout>
+            <Label Text="Temperatura" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="50" Margin="20"/>
+            <Label Text="" x:Name="temperatura" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="50" Margin="30"/>
+            <StackLayout Orientation="Horizontal" Margin="30">
+                <Button Text="Diminuir" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" Clicked="diminuir"/>
+                <Button Text="Aumentar" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" Clicked="aumentar"/>
+            </StackLayout>
+            <Button Text="Salvar" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Configuração">
+        <StackLayout Margin="30">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ativar dias pré-definidos" HorizontalOptions="StartAndExpand" FontSize="20" TextColor="Black"/>
+                <Switch IsToggled="False" x:Name="SelecionarDias" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <input:CheckBox Text="S" TextColor="Black"/>
+                <input:CheckBox Text="M" TextColor="Black"/>
+                <input:CheckBox Text="T" TextColor="Black"/>
+                <input:CheckBox Text="W" TextColor="Black"/>
+                <input:CheckBox Text="T" TextColor="Black"/>
+                <input:CheckBox Text="F" TextColor="Black"/>
+                <input:CheckBox Text="S" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ativar hora pré-definida" HorizontalOptions="StartAndExpand" FontSize="20" TextColor="Black"/>
+                <Switch IsToggled="False" x:Name="SelecionaHora" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hora ligar :" HorizontalOptions="StartAndExpand" FontSize="20" TextColor="Black"/>
+                <TimePicker />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hora desligar:" HorizontalOptions="StartAndExpand" FontSize="20" TextColor="Black"/>
+                <TimePicker />
+            </StackLayout>
+        
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

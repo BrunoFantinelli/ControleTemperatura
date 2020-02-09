@@ -1,0 +1,15 @@
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\bin\Debug\netstandard2.0\ControleTemperatura.deps.json
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\bin\Debug\netstandard2.0\ControleTemperatura.dll
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\bin\Debug\netstandard2.0\ref\ControleTemperatura.dll
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\bin\Debug\netstandard2.0\ControleTemperatura.pdb
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura.csprojAssemblyReference.cache
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura.csproj.CoreCompileInputs.cache
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura.AssemblyInfoInputs.cache
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura.AssemblyInfo.cs
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura.dll
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ref\ControleTemperatura.dll
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura.pdb
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\ControleTemperatura\TelaInicio.xaml.g.cs
+C:\Users\bruno\source\repos\ControleTemperatura\ControleTemperatura\ControleTemperatura\obj\Debug\netstandard2.0\XamlC.stamp
